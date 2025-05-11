@@ -1,6 +1,5 @@
 package com.drtx.demo.core.ports.in.transaction;
 
-import com.drtx.demo.core.model.transaction.PaymentMethodType;
 import com.drtx.demo.core.model.transaction.Transaction;
 
 import java.time.LocalDateTime;

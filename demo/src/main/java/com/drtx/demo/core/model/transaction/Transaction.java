@@ -17,4 +17,10 @@ public class Transaction {
     private User buyer;
     private Publication publication;
     private PaymentMethod paymentMethod;
+
+    public void cancel(){
+        if(this.state!=TransactionState.PENDING)
+            throw new IllegalStateException("Just can cancel pending transactions");
+        this.state=TransactionState.CANCELED;
+    }
 }

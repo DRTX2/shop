@@ -1,7 +1,6 @@
 package com.drtx.demo.core.ports.in.transaction;
 
 import com.drtx.demo.core.model.transaction.PaymentMethod;
-import com.drtx.demo.core.model.transaction.PaymentMethodType;
 
 import java.util.List;
 
